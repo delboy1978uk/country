@@ -4,9 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b6282385ede507024b87707b4522f450",
-    "content-hash": "62362bce9f929379590f1c314e179d9c",
-    "packages": [],
+    "hash": "e134943da029b48e164c6e10c420c8a2",
+    "content-hash": "089add164f5c332f5d2561eee48ec5ec",
+    "packages": [
+        {
+            "name": "delboy1978uk/image",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delboy1978uk/image.git",
+                "reference": "0b1dc190db18ba46832d03d8754dcc98f8dac98e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/delboy1978uk/image/zipball/0b1dc190db18ba46832d03d8754dcc98f8dac98e",
+                "reference": "0b1dc190db18ba46832d03d8754dcc98f8dac98e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Del\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Derek McLean",
+                    "email": "delboy1978uk@gmail.com"
+                }
+            ],
+            "description": "PHP image class",
+            "time": "2015-07-19 00:28:39"
+        }
+    ],
     "packages-dev": [
         {
             "name": "codeception/codeception",

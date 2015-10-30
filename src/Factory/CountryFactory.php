@@ -18,8 +18,6 @@ class CountryFactory
     public function __clone(){}
 
     /**
-     *  Ahoy! There nay be boardin without yer configuration
-     *
      * @param string $id
      * @return Country
      */
