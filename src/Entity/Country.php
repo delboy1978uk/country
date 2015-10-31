@@ -24,7 +24,7 @@ class Country
     private $flag;
 
     /**
-     * @return int
+     * @return string
      */
     public function getId()
     {
@@ -32,7 +32,7 @@ class Country
     }
 
     /**
-     * @param int $id
+     * @param string $id
      * @return Country
      */
     public function setId($id)
