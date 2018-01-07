@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "delboy1978uk/image": "1.0.1"
+        "delboy1978uk/image": "^1.0.1"
     },
     "require-dev":{
         "codeception/codeception": "2.1.3"
