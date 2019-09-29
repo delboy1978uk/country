@@ -11,17 +11,6 @@ class FlagHelperTest extends \Codeception\TestCase\Test
     */
     protected $tester;
 
-
-    protected function _before()
-    {
-
-    }
-
-    protected function _after()
-    {
-
-    }
-
     public function testRenderFlag()
     {
         $country = CountryFactory::generate('GBR');

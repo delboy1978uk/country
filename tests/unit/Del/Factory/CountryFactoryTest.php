@@ -2,25 +2,15 @@
 
 namespace Del\Factory;
 
+use Codeception\TestCase\Test;
+use InvalidArgumentException;
 
-class CountryFactoryTest extends \Codeception\TestCase\Test
+class CountryFactoryTest extends Test
 {
    /**
     * @var \UnitTester
     */
     protected $tester;
-
-
-
-    protected function _before()
-    {
-
-    }
-
-    protected function _after()
-    {
-
-    }
 
     public function testGenerateCountry()
     {
@@ -36,7 +26,7 @@ class CountryFactoryTest extends \Codeception\TestCase\Test
 
     public function testThrowsExceptionWhenBullshitCountryCodePassed()
     {
-        $this->setExpectedException('InvalidArgumentException');
+        $this->expectException(InvalidArgumentException::class);
         CountryFactory::generate('ZZZ');
     }
 }
