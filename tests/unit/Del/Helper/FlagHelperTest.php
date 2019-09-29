@@ -15,12 +15,12 @@ class FlagHelperTest extends \Codeception\TestCase\Test
     {
         $country = CountryFactory::generate('GBR');
         $flag = Flag::render($country,'large');
-        $this->assertContains('<img src="data:',$flag);
+        $this->assertStringContainsString('<img src="data:',$flag);
         $flag = Flag::render($country,'medium');
-        $this->assertContains('<img src="data:',$flag);
+        $this->assertStringContainsString('<img src="data:',$flag);
         $flag = Flag::render($country,'small');
-        $this->assertContains('<img src="data:',$flag);
+        $this->assertStringContainsString('<img src="data:',$flag);
         $flag = Flag::render($country,'tiny');
-        $this->assertContains('<img src="data:',$flag);
+        $this->assertStringContainsString('<img src="data:',$flag);
     }
 }
