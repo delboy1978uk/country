@@ -14,8 +14,8 @@ class CountryFactory
 {
     private $countries;
 
-    public function __construct(){}
-    public function __clone(){}
+    private function __construct(){}
+    private function __clone(){}
 
     /**
      * @param string $id
