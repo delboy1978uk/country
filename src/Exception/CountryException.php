@@ -1,6 +1,6 @@
 <?php
 
-namespace Del;
+namespace Del\Exception;
 
 use Exception;
 

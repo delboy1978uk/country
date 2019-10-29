@@ -3,7 +3,6 @@
 namespace Del\Factory;
 
 use Del\Entity\Country;
-use Del\CountryException;
 use Del\Repository\CountryRepository;
 
 class CountryFactory
