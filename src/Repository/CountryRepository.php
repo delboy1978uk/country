@@ -2,7 +2,7 @@
 
 namespace Del\Repository;
 
-use Del\CountryException;
+use Del\Exception\CountryException;
 use Del\Entity\Country;
 
 class CountryRepository
