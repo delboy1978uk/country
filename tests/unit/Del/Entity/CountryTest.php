@@ -41,14 +41,8 @@ class CountryTest extends \Codeception\TestCase\Test
 
     public function testGetSetName()
     {
-        $this->country->setName('GREAT BRITAIN');
-        $this->assertEquals('GREAT BRITAIN',$this->country->getName());
-    }
-
-    public function testGetSetCountry()
-    {
-        $this->country->setCountry('Great Britain');
-        $this->assertEquals('Great Britain',$this->country->getCountry());
+        $this->country->setName('Great Britain');
+        $this->assertEquals('Great Britain',$this->country->getName());
     }
 
     public function testGetSetNumCode()

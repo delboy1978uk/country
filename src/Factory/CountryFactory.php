@@ -33,9 +33,7 @@ class CountryFactory
             $inst->countryRepository = new CountryRepository();
         }
 
-        $data = $inst->countryRepository->findCountryByIsoCode($id);
-
-        return  $inst->countryRepository->createFromArray($data);
+        return $inst->countryRepository->findCountryByIsoCode($id);
     }
 
     /**
