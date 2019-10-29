@@ -4,6 +4,7 @@ namespace Del\Repository;
 
 use Del\Exception\CountryException;
 use Del\Entity\Country;
+use Del\Factory\CountryList;
 
 class CountryRepository
 {
@@ -15,7 +16,8 @@ class CountryRepository
      */
     public function __construct()
     {
-        $this->countries = require_once __DIR__ . '/../Factory/countries.php';
+        $list = new CountryList();
+        $this->countries = $list->getCountries();
     }
 
     /**
