@@ -72,7 +72,6 @@ class CountryRepository
         $country->setId($data['id']);
         $country->setIso($data['iso']);
         $country->setName($data['name']);
-        $country->setCountry($data['country']);
         $country->setNumCode($data['numcode']);
         $country->setFlag($data['flag']);
 

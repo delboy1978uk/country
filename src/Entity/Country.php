@@ -14,9 +14,6 @@ class Country
     /** @var string */
     private $name = '';
 
-    /** @var string */
-    private $country = '';
-
     /** @var  string */
     private $num_code = '';
 
@@ -70,22 +67,6 @@ class Country
     public function setName(string $name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getCountry(): string
-    {
-        return $this->country;
-    }
-
-    /**
-     * @param string $country
-     */
-    public function setCountry(string $country): void
-    {
-        $this->country = $country;
     }
 
     /**
