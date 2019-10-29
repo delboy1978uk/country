@@ -18,13 +18,18 @@ class CountryRepository
         $this->countries = require_once __DIR__ . '/../Factory/countries.php';
     }
 
-    public function findAllCountries()
+    /**
+     * @return Country[]
+     */
+    public function findAllCountries(): array
     {
         $countries = [];
 
         foreach ($this->countries as $country) {
             $countries[] = $this->createFromArray($country);
         }
+
+        return $countries;
     }
 
     /**
@@ -32,7 +37,7 @@ class CountryRepository
      * @return Country
      * @throws CountryException
      */
-    public function findCountryById(string $id): Country
+    public function findCountryByIsoCode(string $id): Country
     {
         if (isset($this->countries[$id])) {
             return $this->createFromArray($this->countries[$id]);
@@ -64,12 +69,12 @@ class CountryRepository
     public function createFromArray(array $data): Country
     {
         $country = new Country();
-        $country->setId($data['id'])
-            ->setIso($data['iso'])
-            ->setName($data['name'])
-            ->setCountry($data['country'])
-            ->setNumCode($data['numcode'])
-            ->setFlag($data['flag']);
+        $country->setId($data['id']);
+        $country->setIso($data['iso']);
+        $country->setName($data['name']);
+        $country->setCountry($data['country']);
+        $country->setNumCode($data['numcode']);
+        $country->setFlag($data['flag']);
 
         return $country;
     }

@@ -1,50 +1,49 @@
 <?php
-/**
- * User: delboy1978uk
- * Date: 30/10/15
- * Time: 16:34
- */
 
 namespace Del\Factory;
 
 use Del\Entity\Country;
-use InvalidArgumentException;
+use Del\CountryException;
+use Del\Repository\CountryRepository;
 
 class CountryFactory
 {
-    private $countries;
+    /**
+     * @var CountryRepository $countryRepository
+     */
+    private $countryRepository;
 
-    private function __construct(){}
-    private function __clone(){}
+    private function __construct()
+    {
+    }
+
+    private function __clone()
+    {
+    }
 
     /**
      * @param string $id
      * @return Country
      */
-    public static function generate($id)
+    public static function generate(string $id): Country
     {
         static $inst = null;
-        if($inst === null)
-        {
+
+        if ($inst === null) {
             $inst = new CountryFactory();
-            $inst->countries = require('countries.php');
+            $inst->countryRepository = new CountryRepository();
         }
 
-        if(!isset($inst->countries[$id])) {
-            throw new InvalidArgumentException('No country found with that ID');
-        }
+        $data = $inst->countryRepository->findCountryByIsoCode($id);
 
-        $c = $inst->countries[$id];
+        return  $inst->countryRepository->createFromArray($data);
+    }
 
-
-        $country = new Country();
-        $country->setId($c['id'])
-            ->setIso($c['iso'])
-            ->setName($c['name'])
-            ->setCountry($c['country'])
-            ->setNumCode($c['numcode'])
-            ->setFlag($c['flag']);
-
-        return $country;
+    /**
+     * @param CountryRepository $countryRepository
+     */
+    public function setCountryRepository(CountryRepository $countryRepository): void
+    {
+        $this->countryRepository = $countryRepository;
     }
 }

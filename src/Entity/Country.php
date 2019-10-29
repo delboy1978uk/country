@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Del\Entity;
 
@@ -6,128 +6,117 @@ namespace Del\Entity;
 class Country
 {
     /** @var string */
-    private $id;
+    private $id = '';
 
     /** @var  string */
-    private $iso;
+    private $iso = '';
 
     /** @var string */
-    private $name;
+    private $name = '';
 
     /** @var string */
-    private $country;
+    private $country = '';
 
     /** @var  string */
-    private $num_code;
+    private $num_code = '';
 
     /** @var  string */
-    private $flag;
+    private $flag = '';
+
 
     /**
      * @return string
      */
-    public function getId()
+    public function getId(): string
     {
         return $this->id;
     }
 
     /**
      * @param string $id
-     * @return Country
      */
-    public function setId($id)
+    public function setId(string $id): void
     {
         $this->id = $id;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getIso()
+    public function getIso(): string
     {
         return $this->iso;
     }
 
     /**
      * @param string $iso
-     * @return Country
      */
-    public function setIso($iso)
+    public function setIso(string $iso): void
     {
         $this->iso = $iso;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getName()
+    public function getName(): string
     {
         return $this->name;
     }
 
     /**
-     * @param string $name
-     * @return Country
+     * @param $name
      */
-    public function setName($name)
+    public function setName(string $name)
     {
         $this->name = $name;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getCountry()
+    public function getCountry(): string
     {
         return $this->country;
     }
 
     /**
      * @param string $country
-     * @return Country
      */
-    public function setCountry($country)
+    public function setCountry(string $country): void
     {
         $this->country = $country;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getNumCode()
+    public function getNumCode(): string
     {
         return $this->num_code;
     }
 
     /**
      * @param string $num_code
-     * @return Country
      */
-    public function setNumCode($num_code)
+    public function setNumCode(string $num_code): void
     {
         $this->num_code = $num_code;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getFlag()
+    public function getFlag():string
     {
         return $this->flag;
     }
 
     /**
      * @param string $flag
-     * @return Country
      */
-    public function setFlag($flag)
+    public function setFlag(string $flag):void
     {
         $this->flag = $flag;
-        return $this;
     }
 }
