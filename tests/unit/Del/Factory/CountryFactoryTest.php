@@ -14,7 +14,7 @@ class CountryFactoryTest extends Test
 
     public function testGenerateCountry()
     {
-        $country = CountryFactory::generate('GBR');
+        $country = CountryFactory::generate('GB');
         $this->assertInstanceOf('Del\Entity\Country', $country);
         $this->assertEquals('GBR',$country->getId());
         $this->assertEquals('GB',$country->getIso());

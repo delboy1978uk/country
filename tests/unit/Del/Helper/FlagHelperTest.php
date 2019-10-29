@@ -13,7 +13,7 @@ class FlagHelperTest extends \Codeception\TestCase\Test
 
     public function testRenderFlag()
     {
-        $country = CountryFactory::generate('GBR');
+        $country = CountryFactory::generate('GB');
         $flag = Flag::render($country,'large');
         $this->assertStringContainsString('<img src="data:',$flag);
         $flag = Flag::render($country,'medium');
