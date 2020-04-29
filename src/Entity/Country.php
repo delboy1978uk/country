@@ -2,6 +2,7 @@
 
 namespace Del\Entity;
 
+use JsonSerializable;
 
 class Country
 {
@@ -99,5 +100,18 @@ class Country
     public function setFlag(string $flag):void
     {
         $this->flag = $flag;
+    }
+
+    /**
+     * @return array
+     */
+    public function toArray(): array
+    {
+        return [
+             'id' => $this->id,
+             'iso' => $this->iso,
+             'num_code' => $this->num_code,
+             'flag' => $this->flag,
+        ];
     }
 }
