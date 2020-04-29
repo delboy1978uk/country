@@ -12,7 +12,9 @@
         "delboy1978uk/image": "^2.0"
     },
     "require-dev":{
-        "codeception/codeception": "*"
+        "roave/security-advisories": "dev-master",
+        "codeception/codeception": "^4.0",
+        "codeception/module-asserts": "^1.1"
     },
     "autoload":{
         "psr-4":{
