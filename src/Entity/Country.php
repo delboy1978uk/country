@@ -114,4 +114,12 @@ class Country
              'flag' => $this->flag,
         ];
     }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->iso;
+    }
 }
