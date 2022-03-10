@@ -6,21 +6,11 @@ use JsonSerializable;
 
 class Country
 {
-    /** @var string */
-    private $id = '';
-
-    /** @var  string */
-    private $iso = '';
-
-    /** @var string */
-    private $name = '';
-
-    /** @var  string */
-    private $num_code = '';
-
-    /** @var  string */
-    private $flag = '';
-
+    private string $id = '';
+    private string $iso = '';
+    private string $name = '';
+    private string $num_code = '';
+    private string $flag = '';
 
     /**
      * @return string
@@ -65,7 +55,7 @@ class Country
     /**
      * @param $name
      */
-    public function setName(string $name)
+    public function setName(string $name): void
     {
         $this->name = $name;
     }
@@ -89,7 +79,7 @@ class Country
     /**
      * @return string
      */
-    public function getFlag():string
+    public function getFlag(): string
     {
         return $this->flag;
     }
@@ -97,7 +87,7 @@ class Country
     /**
      * @param string $flag
      */
-    public function setFlag(string $flag):void
+    public function setFlag(string $flag): void
     {
         $this->flag = $flag;
     }

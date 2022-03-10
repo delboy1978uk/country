@@ -7,10 +7,7 @@ use Del\Repository\CountryRepository;
 
 class CountryFactory
 {
-    /**
-     * @var CountryRepository $countryRepository
-     */
-    private $countryRepository;
+    private CountryRepository $countryRepository;
 
     private function __construct()
     {

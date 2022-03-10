@@ -1,9 +1,4 @@
 <?php
-/**
- * User: delboy1978uk
- * Date: 30/10/15
- * Time: 17:32
- */
 
 namespace Del\Helper;
 
@@ -19,8 +14,8 @@ class Flag
      */
     public static function render(Country $country, $size)
     {
-        $path = dirname(dirname(__DIR__)).DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'img'.DIRECTORY_SEPARATOR.'flags'.DIRECTORY_SEPARATOR.$size.DIRECTORY_SEPARATOR;
-        $img = new Image($path.$country->getFlag());
+        $path = dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'flags' . DIRECTORY_SEPARATOR . $size . DIRECTORY_SEPARATOR;
+        $img = new Image($path . $country->getFlag());
         $header = $img->getHeader();
 
         ob_start();
@@ -28,6 +23,6 @@ class Flag
         $img->destroy();
         $i = ob_get_clean();
 
-        return( '<img src="data:'.$header.';base64,' . base64_encode( $i ).'" />');
+        return ('<img src="data:' . $header . ';base64,' . base64_encode($i) . '" />');
     }
 }
