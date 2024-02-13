@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Del\Repository;
 
 use Del\Exception\CountryException;
@@ -9,20 +11,15 @@ use Del\Factory\CountryList;
 class CountryRepository
 {
     /** @var Country[] $countries */
-    private $countries;
+    private array $countries;
 
-    /**
-     * CountryRepository constructor.
-     */
     public function __construct()
     {
         $list = new CountryList();
         $this->countries = $list->getCountries();
     }
 
-    /**
-     * @return Country[]
-     */
+    /**  @return Country[]  */
     public function findAllCountries(): array
     {
         $countries = [];
@@ -34,11 +31,7 @@ class CountryRepository
         return $countries;
     }
 
-    /**
-     * @param string $id
-     * @return Country
-     * @throws CountryException
-     */
+    /** @throws CountryException  */
     public function findCountryByIsoCode(string $id): Country
     {
         if (isset($this->countries[$id])) {
@@ -48,11 +41,7 @@ class CountryRepository
         throw new CountryException(CountryException::ERROR_NOT_FOUND);
     }
 
-    /**
-     * @param string $id
-     * @return Country
-     * @throws CountryException
-     */
+    /** @throws CountryException */
     public function findCountryBy(string $key, string $value): Country
     {
         foreach ($this->countries as $country) {
@@ -64,10 +53,6 @@ class CountryRepository
         throw new CountryException(CountryException::ERROR_NOT_FOUND);
     }
 
-    /**
-     * @param array $data
-     * @return Country
-     */
     public function createFromArray(array $data): Country
     {
         $country = new Country();

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Del\Factory;
 
 use Del\Entity\Country;
@@ -7,10 +9,7 @@ use Del\Repository\CountryRepository;
 
 class CountryList
 {
-    /**
-     * @var CountryRepository $countryRepository
-     */
-    private $countries;
+    private array $countries;
 
     public function __construct()
     {
