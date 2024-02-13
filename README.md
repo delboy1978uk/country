@@ -20,12 +20,12 @@ public function getFlag(): string;
 public function getId(): string;
 public function getIso(): string;
 public function getName(): string;
-public function getNumCode(): string;
+public function getNumCode(): int;
 public function setFlag(string $flag): void;
 public function setId(string $id): void
 public function setIso(string $iso): void;
 public function setName(string $name): void;
-public function setNumCode(string $num_code): void;
+public function setNumCode(int $numCode): void;
 public function toArray(): array;
 ```
 #### trait

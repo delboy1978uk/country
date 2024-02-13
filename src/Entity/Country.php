@@ -11,7 +11,7 @@ class Country
     private string $id = '';
     private string $iso = '';
     private string $name = '';
-    private string $numCode = '';
+    private int $numCode = 0;
     private string $flag = '';
 
     public function getId(): string
@@ -44,14 +44,14 @@ class Country
         $this->name = $name;
     }
 
-    public function getNumCode(): string
+    public function getNumCode(): int
     {
         return $this->numCode;
     }
 
-    public function setNumCode(string $numCode): void
+    public function setNumCode(int $numCode): void
     {
-        $this->num_code = $numCode;
+        $this->numCode = $numCode;
     }
 
     public function getFlag(): string
