@@ -4,7 +4,7 @@ namespace Del\Helper;
 
 use Del\Factory\CountryFactory;
 
-class FlagHelperTest extends \Codeception\TestCase\Test
+class FlagHelperTest extends \Codeception\Test\Unit
 {
    /**
     * @var \UnitTester

@@ -3,7 +3,7 @@
 namespace Del\Entity;
 
 
-class CountryTest extends \Codeception\TestCase\Test
+class CountryTest extends \Codeception\Test\Unit
 {
    /**
     * @var \UnitTester

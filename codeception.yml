@@ -1,10 +1,10 @@
-actor: Tester
-bootstrap: _bootstrap.php
+actor_suffix: Tester
 paths:
     tests: tests
-    log: tests/_output
+    output: tests/_output
     data: tests/_data
     helpers: tests/_support
+bootstrap: _bootstrap.php
 settings:
     colors: true
     memory_limit: 1024M
@@ -15,7 +15,11 @@ modules:
             user: ''
             password: ''
             dump: tests/_data/dump.sql
+settings:
+    colors: true
+    memory_limit: 1024M
 coverage:
     enabled: true
-    include:
-        - src/*
+    whitelist:
+        include:
+            - src/*.php

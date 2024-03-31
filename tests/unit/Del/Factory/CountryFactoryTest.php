@@ -2,11 +2,11 @@
 
 namespace Del\Factory;
 
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 use Del\Exception\CountryException;
 use InvalidArgumentException;
 
-class CountryFactoryTest extends Test
+class CountryFactoryTest extends Unit
 {
    /**
     * @var \UnitTester
