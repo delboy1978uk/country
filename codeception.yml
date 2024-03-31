@@ -15,9 +15,6 @@ modules:
             user: ''
             password: ''
             dump: tests/_data/dump.sql
-settings:
-    colors: true
-    memory_limit: 1024M
 coverage:
     enabled: true
     whitelist:
