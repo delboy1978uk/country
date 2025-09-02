@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "delboy1978uk/image": "^2.6"
+        "delboy1978uk/image": "^2.6",
+        "delboy1978uk/form": "^2.7"
     },
     "require-dev":{
         "roave/security-advisories": "dev-latest",
