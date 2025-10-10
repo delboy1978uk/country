@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Del\Form\Field;
 
-use Bone\User\Form\Transformer\CountryTransformer;
+use Del\Form\Transformer\CountryTransformer;
 use Del\Repository\CountryRepository;
 
 class CountrySelect extends Select
