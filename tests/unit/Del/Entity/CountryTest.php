@@ -1,6 +1,6 @@
 <?php
 
-namespace Del\Entity;
+namespace Tests\Del\Entity;
 
 
 class CountryTest extends \Codeception\Test\Unit

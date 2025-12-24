@@ -20,6 +20,7 @@ class CountryList
                 'name' => 'Afghanistan',
                 'numcode' => 4,
                 'flag' => 'Afghanistan-Flag.png',
+                'timezone' => 'Asia/Kabul',
             ],
             'AL' => [
                 'id' => 'ALB',
@@ -27,6 +28,7 @@ class CountryList
                 'name' => 'Albania',
                 'numcode' => 8,
                 'flag' => 'Albania-Flag.png',
+                'timezone' => 'Europe/Tirane',
             ],
             'DZ' => [
                 'id' => 'DZA',
@@ -34,6 +36,7 @@ class CountryList
                 'name' => 'Algeria',
                 'numcode' => 12,
                 'flag' => 'Algeria-Flag.png',
+                'timezone' => 'Africa/Algiers',
             ],
             'AS' => [
                 'id' => 'ASM',
@@ -41,6 +44,7 @@ class CountryList
                 'name' => 'American Samoa',
                 'numcode' => 16,
                 'flag' => 'American-Samoa-Flag.png',
+                'timezone' => 'Pacific/Pago_Pago',
             ],
             'AD' => [
                 'id' => 'AND',
@@ -48,6 +52,7 @@ class CountryList
                 'name' => 'Andorra',
                 'numcode' => 20,
                 'flag' => 'Andorra-Flag.png',
+                'timezone' => 'Europe/Andorra',
             ],
             'AO' => [
                 'id' => 'AGO',
@@ -55,6 +60,7 @@ class CountryList
                 'name' => 'Angola',
                 'numcode' => 24,
                 'flag' => 'Angola-Flag.png',
+                'timezone' => 'Africa/Luanda',
             ],
             'AI' => [
                 'id' => 'AIA',
@@ -62,6 +68,7 @@ class CountryList
                 'name' => 'Anguilla',
                 'numcode' => 660,
                 'flag' => 'Anguilla-Flag.png',
+                'timezone' => 'America/Anguilla',
             ],
             'AQ' => [
                 'id' => 'AQ',
@@ -69,6 +76,7 @@ class CountryList
                 'name' => 'Antarctica',
                 'numcode' => 0,
                 'flag' => 'Antarctica-Flag.png',
+                'timezone' => 'Antarctica/Palmer', // Multiple; using one representative
             ],
             'AG' => [
                 'id' => 'ATG',
@@ -76,6 +84,7 @@ class CountryList
                 'name' => 'Antigua and Barbuda',
                 'numcode' => 28,
                 'flag' => 'Antigua-and-Barbuda-Flag.png',
+                'timezone' => 'America/Antigua',
             ],
             'AR' => [
                 'id' => 'ARG',
@@ -83,6 +92,7 @@ class CountryList
                 'name' => 'Argentina',
                 'numcode' => 32,
                 'flag' => 'Argentina-Flag.png',
+                'timezone' => 'America/Buenos_Aires',
             ],
             'AM' => [
                 'id' => 'ARM',
@@ -90,6 +100,7 @@ class CountryList
                 'name' => 'Armenia',
                 'numcode' => 51,
                 'flag' => 'Armenia-Flag.png',
+                'timezone' => 'Asia/Yerevan',
             ],
             'AW' => [
                 'id' => 'ABW',
@@ -97,6 +108,7 @@ class CountryList
                 'name' => 'Aruba',
                 'numcode' => 533,
                 'flag' => 'Aruba-Flag.png',
+                'timezone' => 'America/Aruba',
             ],
             'AU' => [
                 'id' => 'AUS',
@@ -104,6 +116,7 @@ class CountryList
                 'name' => 'Australia',
                 'numcode' => 36,
                 'flag' => 'Australia-Flag.png',
+                'timezone' => 'Australia/Sydney', // Primary/most populous
             ],
             'AT' => [
                 'id' => 'AUT',
@@ -111,6 +124,7 @@ class CountryList
                 'name' => 'Austria',
                 'numcode' => 40,
                 'flag' => 'Austria-Flag.png',
+                'timezone' => 'Europe/Vienna',
             ],
             'AZ' => [
                 'id' => 'AZE',
@@ -118,6 +132,7 @@ class CountryList
                 'name' => 'Azerbaijan',
                 'numcode' => 31,
                 'flag' => 'Azerbaijan-Flag.png',
+                'timezone' => 'Asia/Baku',
             ],
             'BS' => [
                 'id' => 'BHS',
@@ -125,6 +140,7 @@ class CountryList
                 'name' => 'Bahamas',
                 'numcode' => 44,
                 'flag' => 'Bahamas-Flag.png',
+                'timezone' => 'America/Nassau',
             ],
             'BH' => [
                 'id' => 'BHR',
@@ -132,6 +148,7 @@ class CountryList
                 'name' => 'Bahrain',
                 'numcode' => 48,
                 'flag' => 'Bahrain-Flag.png',
+                'timezone' => 'Asia/Bahrain',
             ],
             'BD' => [
                 'id' => 'BGD',
@@ -139,6 +156,7 @@ class CountryList
                 'name' => 'Bangladesh',
                 'numcode' => 50,
                 'flag' => 'Bangladesh-Flag.png',
+                'timezone' => 'Asia/Dhaka',
             ],
             'BB' => [
                 'id' => 'BRB',
@@ -146,6 +164,7 @@ class CountryList
                 'name' => 'Barbados',
                 'numcode' => 52,
                 'flag' => 'Barbados-Flag.png',
+                'timezone' => 'America/Barbados',
             ],
             'BY' => [
                 'id' => 'BLR',
@@ -153,6 +172,7 @@ class CountryList
                 'name' => 'Belarus',
                 'numcode' => 112,
                 'flag' => 'Belarus-Flag.png',
+                'timezone' => 'Europe/Minsk',
             ],
             'BE' => [
                 'id' => 'BEL',
@@ -160,6 +180,7 @@ class CountryList
                 'name' => 'Belgium',
                 'numcode' => 56,
                 'flag' => 'Belgium-Flag.png',
+                'timezone' => 'Europe/Brussels',
             ],
             'BZ' => [
                 'id' => 'BLZ',
@@ -167,6 +188,7 @@ class CountryList
                 'name' => 'Belize',
                 'numcode' => 84,
                 'flag' => 'Belize-Flag.png',
+                'timezone' => 'America/Belize',
             ],
             'BJ' => [
                 'id' => 'BEN',
@@ -174,6 +196,7 @@ class CountryList
                 'name' => 'Benin',
                 'numcode' => 204,
                 'flag' => 'Benin-Flag.png',
+                'timezone' => 'Africa/Porto-Novo',
             ],
             'BM' => [
                 'id' => 'BMU',
@@ -181,6 +204,7 @@ class CountryList
                 'name' => 'Bermuda',
                 'numcode' => 60,
                 'flag' => 'Bermuda-Flag.png',
+                'timezone' => 'Atlantic/Bermuda',
             ],
             'BT' => [
                 'id' => 'BTN',
@@ -188,6 +212,7 @@ class CountryList
                 'name' => 'Bhutan',
                 'numcode' => 64,
                 'flag' => 'Bhutan-Flag.png',
+                'timezone' => 'Asia/Thimphu',
             ],
             'BO' => [
                 'id' => 'BOL',
@@ -195,6 +220,7 @@ class CountryList
                 'name' => 'Bolivia',
                 'numcode' => 68,
                 'flag' => 'Bolivia-Flag.png',
+                'timezone' => 'America/La_Paz',
             ],
             'BA' => [
                 'id' => 'BIH',
@@ -202,6 +228,7 @@ class CountryList
                 'name' => 'Bosnia and Herzegovina',
                 'numcode' => 70,
                 'flag' => 'Bosnia-and-Herzegovina-Flag.png',
+                'timezone' => 'Europe/Sarajevo',
             ],
             'BW' => [
                 'id' => 'BWA',
@@ -209,6 +236,7 @@ class CountryList
                 'name' => 'Botswana',
                 'numcode' => 72,
                 'flag' => 'Botswana-Flag.png',
+                'timezone' => 'Africa/Gaborone',
             ],
             'BR' => [
                 'id' => 'BRA',
@@ -216,6 +244,7 @@ class CountryList
                 'name' => 'Brazil',
                 'numcode' => 76,
                 'flag' => 'Brazil-Flag.png',
+                'timezone' => 'America/Sao_Paulo', // Primary
             ],
             'BN' => [
                 'id' => 'BRN',
@@ -223,6 +252,7 @@ class CountryList
                 'name' => 'Brunei Darussalam',
                 'numcode' => 96,
                 'flag' => 'Brunei-Flag.png',
+                'timezone' => 'Asia/Brunei',
             ],
             'BG' => [
                 'id' => 'BGR',
@@ -230,6 +260,7 @@ class CountryList
                 'name' => 'Bulgaria',
                 'numcode' => 100,
                 'flag' => 'Bulgaria-Flag.png',
+                'timezone' => 'Europe/Sofia',
             ],
             'BF' => [
                 'id' => 'BFA',
@@ -237,6 +268,7 @@ class CountryList
                 'name' => 'Burkina Faso',
                 'numcode' => 854,
                 'flag' => 'Burkina-Faso-Flag.png',
+                'timezone' => 'Africa/Ouagadougou',
             ],
             'BI' => [
                 'id' => 'BDI',
@@ -244,6 +276,7 @@ class CountryList
                 'name' => 'Burundi',
                 'numcode' => 108,
                 'flag' => 'Burundi-Flag.png',
+                'timezone' => 'Africa/Bujumbura',
             ],
             'KH' => [
                 'id' => 'KHM',
@@ -251,6 +284,7 @@ class CountryList
                 'name' => 'Cambodia',
                 'numcode' => 116,
                 'flag' => 'Cambodia-Flag.png',
+                'timezone' => 'Asia/Phnom_Penh',
             ],
             'CM' => [
                 'id' => 'CMR',
@@ -258,6 +292,7 @@ class CountryList
                 'name' => 'Cameroon',
                 'numcode' => 120,
                 'flag' => 'Cameroon-Flag.png',
+                'timezone' => 'Africa/Douala',
             ],
             'CA' => [
                 'id' => 'CAN',
@@ -265,6 +300,7 @@ class CountryList
                 'name' => 'Canada',
                 'numcode' => 124,
                 'flag' => 'Canada-Flag.png',
+                'timezone' => 'America/Toronto', // Primary
             ],
             'CV' => [
                 'id' => 'CPV',
@@ -272,6 +308,7 @@ class CountryList
                 'name' => 'Cape Verde',
                 'numcode' => 132,
                 'flag' => 'Cape-Verde-Flag.png',
+                'timezone' => 'Atlantic/Cape_Verde',
             ],
             'KY' => [
                 'id' => 'CYM',
@@ -279,6 +316,7 @@ class CountryList
                 'name' => 'Cayman Islands',
                 'numcode' => 136,
                 'flag' => 'Cayman-Islands-Flag.png',
+                'timezone' => 'America/Cayman',
             ],
             'CF' => [
                 'id' => 'CAF',
@@ -286,6 +324,7 @@ class CountryList
                 'name' => 'Central African Republic',
                 'numcode' => 140,
                 'flag' => 'Central-African-Republic-Flag.png',
+                'timezone' => 'Africa/Bangui',
             ],
             'TD' => [
                 'id' => 'TCD',
@@ -293,6 +332,7 @@ class CountryList
                 'name' => 'Chad',
                 'numcode' => 148,
                 'flag' => 'Chad-Flag.png',
+                'timezone' => 'Africa/Ndjamena',
             ],
             'CL' => [
                 'id' => 'CHL',
@@ -300,6 +340,7 @@ class CountryList
                 'name' => 'Chile',
                 'numcode' => 152,
                 'flag' => 'Chile-Flag.png',
+                'timezone' => 'America/Santiago', // Mainland
             ],
             'CN' => [
                 'id' => 'CHN',
@@ -307,6 +348,7 @@ class CountryList
                 'name' => 'China',
                 'numcode' => 156,
                 'flag' => 'China-Flag.png',
+                'timezone' => 'Asia/Shanghai',
             ],
             'CO' => [
                 'id' => 'COL',
@@ -314,6 +356,7 @@ class CountryList
                 'name' => 'Colombia',
                 'numcode' => 170,
                 'flag' => 'Colombia-Flag.png',
+                'timezone' => 'America/Bogota',
             ],
             'KM' => [
                 'id' => 'COM',
@@ -321,6 +364,7 @@ class CountryList
                 'name' => 'Comoros',
                 'numcode' => 174,
                 'flag' => 'Comoros-Flag.png',
+                'timezone' => 'Indian/Comoro',
             ],
             'CG' => [
                 'id' => 'COG',
@@ -328,6 +372,7 @@ class CountryList
                 'name' => 'Congo',
                 'numcode' => 178,
                 'flag' => 'Congo-Brazzaville-Flag.png',
+                'timezone' => 'Africa/Brazzaville',
             ],
             'CD' => [
                 'id' => 'COD',
@@ -335,6 +380,7 @@ class CountryList
                 'name' => 'Congo, the Democratic Republic of the',
                 'numcode' => 180,
                 'flag' => 'Congo-Kinshasa-Flag.png',
+                'timezone' => 'Africa/Kinshasa', // Western part; multiple zones
             ],
             'CK' => [
                 'id' => 'COK',
@@ -342,6 +388,7 @@ class CountryList
                 'name' => 'Cook Islands',
                 'numcode' => 184,
                 'flag' => 'Cook-Islands-Flag.png',
+                'timezone' => 'Pacific/Rarotonga',
             ],
             'CR' => [
                 'id' => 'CRI',
@@ -349,6 +396,7 @@ class CountryList
                 'name' => 'Costa Rica',
                 'numcode' => 188,
                 'flag' => 'Costa-Rica-Flag.png',
+                'timezone' => 'America/Costa_Rica',
             ],
             'CI' => [
                 'id' => 'CIV',
@@ -356,6 +404,7 @@ class CountryList
                 'name' => 'Cote D\'Ivoire',
                 'numcode' => 384,
                 'flag' => 'Cote-DIvoire-Flag.png',
+                'timezone' => 'Africa/Abidjan',
             ],
             'HR' => [
                 'id' => 'HRV',
@@ -363,6 +412,7 @@ class CountryList
                 'name' => 'Croatia',
                 'numcode' => 191,
                 'flag' => 'Croatia-Flag.png',
+                'timezone' => 'Europe/Zagreb',
             ],
             'CU' => [
                 'id' => 'CUB',
@@ -370,6 +420,7 @@ class CountryList
                 'name' => 'Cuba',
                 'numcode' => 192,
                 'flag' => 'Cuba-Flag.png',
+                'timezone' => 'America/Havana',
             ],
             'CY' => [
                 'id' => 'CYP',
@@ -377,6 +428,7 @@ class CountryList
                 'name' => 'Cyprus',
                 'numcode' => 196,
                 'flag' => 'Cyprus-Flag.png',
+                'timezone' => 'Asia/Nicosia',
             ],
             'CZ' => [
                 'id' => 'CZE',
@@ -384,6 +436,7 @@ class CountryList
                 'name' => 'Czech Republic',
                 'numcode' => 203,
                 'flag' => 'Czech-Republic-Flag.png',
+                'timezone' => 'Europe/Prague',
             ],
             'DK' => [
                 'id' => 'DNK',
@@ -391,6 +444,7 @@ class CountryList
                 'name' => 'Denmark',
                 'numcode' => 208,
                 'flag' => 'Denmark-Flag.png',
+                'timezone' => 'Europe/Copenhagen',
             ],
             'DJ' => [
                 'id' => 'DJI',
@@ -398,6 +452,7 @@ class CountryList
                 'name' => 'Djibouti',
                 'numcode' => 262,
                 'flag' => 'Djibouti-Flag.png',
+                'timezone' => 'Africa/Djibouti',
             ],
             'DM' => [
                 'id' => 'DMA',
@@ -405,6 +460,7 @@ class CountryList
                 'name' => 'Dominica',
                 'numcode' => 212,
                 'flag' => 'Dominica-Flag.png',
+                'timezone' => 'America/Dominica',
             ],
             'DO' => [
                 'id' => 'DOM',
@@ -412,6 +468,7 @@ class CountryList
                 'name' => 'Dominican Republic',
                 'numcode' => 214,
                 'flag' => 'Dominican-Republic-Flag.png',
+                'timezone' => 'America/Santo_Domingo',
             ],
             'EC' => [
                 'id' => 'ECU',
@@ -419,6 +476,7 @@ class CountryList
                 'name' => 'Ecuador',
                 'numcode' => 218,
                 'flag' => 'Ecuador-Flag.png',
+                'timezone' => 'America/Guayaquil',
             ],
             'EG' => [
                 'id' => 'EGY',
@@ -426,6 +484,7 @@ class CountryList
                 'name' => 'Egypt',
                 'numcode' => 818,
                 'flag' => 'Egypt-Flag.png',
+                'timezone' => 'Africa/Cairo',
             ],
             'SV' => [
                 'id' => 'SLV',
@@ -433,6 +492,7 @@ class CountryList
                 'name' => 'El Salvador',
                 'numcode' => 222,
                 'flag' => 'El-Salvador-Flag.png',
+                'timezone' => 'America/El_Salvador',
             ],
             'GQ' => [
                 'id' => 'GNQ',
@@ -440,6 +500,7 @@ class CountryList
                 'name' => 'Equatorial Guinea',
                 'numcode' => 226,
                 'flag' => 'Equatorial-Guinea-Flag.png',
+                'timezone' => 'Africa/Malabo',
             ],
             'ER' => [
                 'id' => 'ERI',
@@ -447,6 +508,7 @@ class CountryList
                 'name' => 'Eritrea',
                 'numcode' => 232,
                 'flag' => 'Eritrea-Flag.png',
+                'timezone' => 'Africa/Asmara',
             ],
             'EE' => [
                 'id' => 'EST',
@@ -454,6 +516,7 @@ class CountryList
                 'name' => 'Estonia',
                 'numcode' => 233,
                 'flag' => 'Estonia-Flag.png',
+                'timezone' => 'Europe/Tallinn',
             ],
             'ET' => [
                 'id' => 'ETH',
@@ -461,13 +524,15 @@ class CountryList
                 'name' => 'Ethiopia',
                 'numcode' => 231,
                 'flag' => 'Ethiopia-Flag.png',
+                'timezone' => 'Africa/Addis_Ababa',
             ],
             'FK' => [
                 'id' => 'FLK',
                 'iso' => 'FK',
-                'name' => 'Falkland Islands (Malvinas]',
+                'name' => 'Falkland Islands (Malvinas)',
                 'numcode' => 238,
                 'flag' => 'United-Kingdom-Flag.png',
+                'timezone' => 'Atlantic/Stanley',
             ],
             'FO' => [
                 'id' => 'FRO',
@@ -475,6 +540,7 @@ class CountryList
                 'name' => 'Faroe Islands',
                 'numcode' => 234,
                 'flag' => 'Faroes-Flag.png',
+                'timezone' => 'Atlantic/Faroe',
             ],
             'FJ' => [
                 'id' => 'FJI',
@@ -482,6 +548,7 @@ class CountryList
                 'name' => 'Fiji',
                 'numcode' => 242,
                 'flag' => 'Fiji-Flag.png',
+                'timezone' => 'Pacific/Fiji',
             ],
             'FI' => [
                 'id' => 'FIN',
@@ -489,6 +556,7 @@ class CountryList
                 'name' => 'Finland',
                 'numcode' => 246,
                 'flag' => 'Finland-Flag.png',
+                'timezone' => 'Europe/Helsinki',
             ],
             'FR' => [
                 'id' => 'FRA',
@@ -496,6 +564,7 @@ class CountryList
                 'name' => 'France',
                 'numcode' => 250,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Europe/Paris',
             ],
             'GF' => [
                 'id' => 'GUF',
@@ -503,6 +572,7 @@ class CountryList
                 'name' => 'French Guiana',
                 'numcode' => 254,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'America/Cayenne',
             ],
             'PF' => [
                 'id' => 'PYF',
@@ -510,6 +580,7 @@ class CountryList
                 'name' => 'French Polynesia',
                 'numcode' => 258,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Pacific/Tahiti',
             ],
             'TF' => [
                 'id' => 'TF',
@@ -517,6 +588,7 @@ class CountryList
                 'name' => 'French Southern Territories',
                 'numcode' => 0,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Indian/Kerguelen',
             ],
             'GA' => [
                 'id' => 'GAB',
@@ -524,6 +596,7 @@ class CountryList
                 'name' => 'Gabon',
                 'numcode' => 266,
                 'flag' => 'Gabon-Flag.png',
+                'timezone' => 'Africa/Libreville',
             ],
             'GM' => [
                 'id' => 'GMB',
@@ -531,6 +604,7 @@ class CountryList
                 'name' => 'Gambia',
                 'numcode' => 270,
                 'flag' => 'Gambia-Flag.png',
+                'timezone' => 'Africa/Banjul',
             ],
             'GE' => [
                 'id' => 'GEO',
@@ -538,6 +612,7 @@ class CountryList
                 'name' => 'Georgia',
                 'numcode' => 268,
                 'flag' => 'Georgia-Flag.png',
+                'timezone' => 'Asia/Tbilisi',
             ],
             'DE' => [
                 'id' => 'DEU',
@@ -545,6 +620,7 @@ class CountryList
                 'name' => 'Germany',
                 'numcode' => 276,
                 'flag' => 'Germany-Flag.png',
+                'timezone' => 'Europe/Berlin',
             ],
             'GH' => [
                 'id' => 'GHA',
@@ -552,6 +628,7 @@ class CountryList
                 'name' => 'Ghana',
                 'numcode' => 288,
                 'flag' => 'Ghana-Flag.png',
+                'timezone' => 'Africa/Accra',
             ],
             'GI' => [
                 'id' => 'GIB',
@@ -559,6 +636,7 @@ class CountryList
                 'name' => 'Gibraltar',
                 'numcode' => 292,
                 'flag' => 'Gibraltar-Flag.png',
+                'timezone' => 'Europe/Gibraltar',
             ],
             'GR' => [
                 'id' => 'GRC',
@@ -566,6 +644,7 @@ class CountryList
                 'name' => 'Greece',
                 'numcode' => 300,
                 'flag' => 'Greece-Flag.png',
+                'timezone' => 'Europe/Athens',
             ],
             'GL' => [
                 'id' => 'GRL',
@@ -573,6 +652,7 @@ class CountryList
                 'name' => 'Greenland',
                 'numcode' => 304,
                 'flag' => 'Denmark-Flag.png',
+                'timezone' => 'America/Nuuk', // Most areas
             ],
             'GD' => [
                 'id' => 'GRD',
@@ -580,6 +660,7 @@ class CountryList
                 'name' => 'Grenada',
                 'numcode' => 308,
                 'flag' => 'Grenada-Flag.png',
+                'timezone' => 'America/Grenada',
             ],
             'GP' => [
                 'id' => 'GLP',
@@ -587,6 +668,7 @@ class CountryList
                 'name' => 'Guadeloupe',
                 'numcode' => 312,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'America/Guadeloupe',
             ],
             'GU' => [
                 'id' => 'GUM',
@@ -594,6 +676,7 @@ class CountryList
                 'name' => 'Guam',
                 'numcode' => 316,
                 'flag' => 'Guam-Flag.png',
+                'timezone' => 'Pacific/Guam',
             ],
             'GT' => [
                 'id' => 'GTM',
@@ -601,6 +684,7 @@ class CountryList
                 'name' => 'Guatemala',
                 'numcode' => 320,
                 'flag' => 'Guatemala-Flag.png',
+                'timezone' => 'America/Guatemala',
             ],
             'GN' => [
                 'id' => 'GIN',
@@ -608,6 +692,7 @@ class CountryList
                 'name' => 'Guinea',
                 'numcode' => 324,
                 'flag' => 'Guinea-Flag.png',
+                'timezone' => 'Africa/Conakry',
             ],
             'GW' => [
                 'id' => 'GNB',
@@ -615,6 +700,7 @@ class CountryList
                 'name' => 'Guinea-Bissau',
                 'numcode' => 624,
                 'flag' => 'Guinea-Bissau-Flag.png',
+                'timezone' => 'Africa/Bissau',
             ],
             'GY' => [
                 'id' => 'GUY',
@@ -622,6 +708,7 @@ class CountryList
                 'name' => 'Guyana',
                 'numcode' => 328,
                 'flag' => 'Guyana-Flag.png',
+                'timezone' => 'America/Guyana',
             ],
             'HT' => [
                 'id' => 'HTI',
@@ -629,6 +716,7 @@ class CountryList
                 'name' => 'Haiti',
                 'numcode' => 332,
                 'flag' => 'Haiti-Flag.png',
+                'timezone' => 'America/Port-au-Prince',
             ],
             'HM' => [
                 'id' => 'HM',
@@ -636,13 +724,15 @@ class CountryList
                 'name' => 'Heard Island and Mcdonald Islands',
                 'numcode' => 0,
                 'flag' => 'Australia-Flag.png',
+                'timezone' => 'Indian/Kerguelen', // Often associated
             ],
             'VA' => [
                 'id' => 'VAT',
                 'iso' => 'VA',
-                'name' => 'Holy See (Vatican City State]',
+                'name' => 'Holy See (Vatican City State)',
                 'numcode' => 336,
                 'flag' => 'Vatican-City-Flag.png',
+                'timezone' => 'Europe/Vatican',
             ],
             'HN' => [
                 'id' => 'HND',
@@ -650,6 +740,7 @@ class CountryList
                 'name' => 'Honduras',
                 'numcode' => 340,
                 'flag' => 'Honduras-Flag.png',
+                'timezone' => 'America/Tegucigalpa',
             ],
             'HK' => [
                 'id' => 'HKG',
@@ -657,6 +748,7 @@ class CountryList
                 'name' => 'Hong Kong',
                 'numcode' => 344,
                 'flag' => 'Hong-Kong-Flag.png',
+                'timezone' => 'Asia/Hong_Kong',
             ],
             'HU' => [
                 'id' => 'HUN',
@@ -664,6 +756,7 @@ class CountryList
                 'name' => 'Hungary',
                 'numcode' => 348,
                 'flag' => 'Hungary-Flag.png',
+                'timezone' => 'Europe/Budapest',
             ],
             'IS' => [
                 'id' => 'ISL',
@@ -671,6 +764,7 @@ class CountryList
                 'name' => 'Iceland',
                 'numcode' => 352,
                 'flag' => 'Iceland-Flag.png',
+                'timezone' => 'Atlantic/Reykjavik',
             ],
             'IN' => [
                 'id' => 'IND',
@@ -678,6 +772,7 @@ class CountryList
                 'name' => 'India',
                 'numcode' => 356,
                 'flag' => 'India-Flag.png',
+                'timezone' => 'Asia/Kolkata',
             ],
             'ID' => [
                 'id' => 'IDN',
@@ -685,6 +780,7 @@ class CountryList
                 'name' => 'Indonesia',
                 'numcode' => 360,
                 'flag' => 'Indonezia-Flag.png',
+                'timezone' => 'Asia/Jakarta', // Western
             ],
             'IR' => [
                 'id' => 'IRN',
@@ -692,6 +788,7 @@ class CountryList
                 'name' => 'Iran, Islamic Republic of',
                 'numcode' => 364,
                 'flag' => 'Iran-Flag.png',
+                'timezone' => 'Asia/Tehran',
             ],
             'IQ' => [
                 'id' => 'IRQ',
@@ -699,6 +796,7 @@ class CountryList
                 'name' => 'Iraq',
                 'numcode' => 368,
                 'flag' => 'Iraq-Flag.png',
+                'timezone' => 'Asia/Baghdad',
             ],
             'IE' => [
                 'id' => 'IRL',
@@ -706,6 +804,7 @@ class CountryList
                 'name' => 'Ireland',
                 'numcode' => 372,
                 'flag' => 'Ireland-Flag.png',
+                'timezone' => 'Europe/Dublin',
             ],
             'IL' => [
                 'id' => 'ISR',
@@ -713,6 +812,7 @@ class CountryList
                 'name' => 'Israel',
                 'numcode' => 376,
                 'flag' => 'Israel-Flag.png',
+                'timezone' => 'Asia/Jerusalem',
             ],
             'IT' => [
                 'id' => 'ITA',
@@ -720,6 +820,7 @@ class CountryList
                 'name' => 'Italy',
                 'numcode' => 380,
                 'flag' => 'Italy-Flag.png',
+                'timezone' => 'Europe/Rome',
             ],
             'JM' => [
                 'id' => 'JAM',
@@ -727,6 +828,7 @@ class CountryList
                 'name' => 'Jamaica',
                 'numcode' => 388,
                 'flag' => 'Jamaica-Flag.png',
+                'timezone' => 'America/Jamaica',
             ],
             'JP' => [
                 'id' => 'JPN',
@@ -734,6 +836,7 @@ class CountryList
                 'name' => 'Japan',
                 'numcode' => 392,
                 'flag' => 'Japan-Flag.png',
+                'timezone' => 'Asia/Tokyo',
             ],
             'JO' => [
                 'id' => 'JOR',
@@ -741,6 +844,7 @@ class CountryList
                 'name' => 'Jordan',
                 'numcode' => 400,
                 'flag' => 'Jordan-Flag.png',
+                'timezone' => 'Asia/Amman',
             ],
             'KZ' => [
                 'id' => 'KAZ',
@@ -748,6 +852,7 @@ class CountryList
                 'name' => 'Kazakhstan',
                 'numcode' => 398,
                 'flag' => 'Kazakhstan-Flag.png',
+                'timezone' => 'Asia/Almaty', // Multiple; using one
             ],
             'KE' => [
                 'id' => 'KEN',
@@ -755,6 +860,7 @@ class CountryList
                 'name' => 'Kenya',
                 'numcode' => 404,
                 'flag' => 'Kenya-Flag.png',
+                'timezone' => 'Africa/Nairobi',
             ],
             'KI' => [
                 'id' => 'KIR',
@@ -762,6 +868,7 @@ class CountryList
                 'name' => 'Kiribati',
                 'numcode' => 296,
                 'flag' => 'Kiribati-Flag.png',
+                'timezone' => 'Pacific/Tarawa', // Gilbert Islands
             ],
             'KP' => [
                 'id' => 'PRK',
@@ -769,6 +876,7 @@ class CountryList
                 'name' => 'Korea, Democratic People\'s Republic of',
                 'numcode' => 408,
                 'flag' => 'North-Korea-Flag.png',
+                'timezone' => 'Asia/Pyongyang',
             ],
             'KR' => [
                 'id' => 'KOR',
@@ -776,6 +884,7 @@ class CountryList
                 'name' => 'Korea, Republic of',
                 'numcode' => 410,
                 'flag' => 'South-Korea-Flag.png',
+                'timezone' => 'Asia/Seoul',
             ],
             'KW' => [
                 'id' => 'KWT',
@@ -783,6 +892,7 @@ class CountryList
                 'name' => 'Kuwait',
                 'numcode' => 414,
                 'flag' => 'Kuwait-Flag.png',
+                'timezone' => 'Asia/Kuwait',
             ],
             'KG' => [
                 'id' => 'KGZ',
@@ -790,6 +900,7 @@ class CountryList
                 'name' => 'Kyrgyzstan',
                 'numcode' => 417,
                 'flag' => 'Kyrgyzstan-Flag.png',
+                'timezone' => 'Asia/Bishkek',
             ],
             'LA' => [
                 'id' => 'LAO',
@@ -797,6 +908,7 @@ class CountryList
                 'name' => 'Lao People\'s Democratic Republic',
                 'numcode' => 418,
                 'flag' => 'Laos-Flag.png',
+                'timezone' => 'Asia/Vientiane',
             ],
             'LV' => [
                 'id' => 'LVA',
@@ -804,6 +916,7 @@ class CountryList
                 'name' => 'Latvia',
                 'numcode' => 428,
                 'flag' => 'Latvia-Flag.png',
+                'timezone' => 'Europe/Riga',
             ],
             'LB' => [
                 'id' => 'LBN',
@@ -811,6 +924,7 @@ class CountryList
                 'name' => 'Lebanon',
                 'numcode' => 422,
                 'flag' => 'Lebanon-Flag.png',
+                'timezone' => 'Asia/Beirut',
             ],
             'LS' => [
                 'id' => 'LSO',
@@ -818,6 +932,7 @@ class CountryList
                 'name' => 'Lesotho',
                 'numcode' => 426,
                 'flag' => 'Lesotho-Flag.png',
+                'timezone' => 'Africa/Maseru',
             ],
             'LR' => [
                 'id' => 'LBR',
@@ -825,6 +940,7 @@ class CountryList
                 'name' => 'Liberia',
                 'numcode' => 430,
                 'flag' => 'Liberia-Flag.png',
+                'timezone' => 'Africa/Monrovia',
             ],
             'LY' => [
                 'id' => 'LBY',
@@ -832,6 +948,7 @@ class CountryList
                 'name' => 'Libyan Arab Jamahiriya',
                 'numcode' => 434,
                 'flag' => 'Libya-Flag.png',
+                'timezone' => 'Africa/Tripoli',
             ],
             'LI' => [
                 'id' => 'LIE',
@@ -839,6 +956,7 @@ class CountryList
                 'name' => 'Liechtenstein',
                 'numcode' => 438,
                 'flag' => 'Liechtenshein-Flag.png',
+                'timezone' => 'Europe/Vaduz',
             ],
             'LT' => [
                 'id' => 'LTU',
@@ -846,6 +964,7 @@ class CountryList
                 'name' => 'Lithuania',
                 'numcode' => 440,
                 'flag' => 'Lithuania-Flag.png',
+                'timezone' => 'Europe/Vilnius',
             ],
             'LU' => [
                 'id' => 'LUX',
@@ -853,6 +972,7 @@ class CountryList
                 'name' => 'Luxembourg',
                 'numcode' => 442,
                 'flag' => 'Luxembourg-Flag.png',
+                'timezone' => 'Europe/Luxembourg',
             ],
             'MO' => [
                 'id' => 'MAC',
@@ -860,6 +980,7 @@ class CountryList
                 'name' => 'Macao',
                 'numcode' => 446,
                 'flag' => 'Macau-Flag.png',
+                'timezone' => 'Asia/Macau',
             ],
             'MK' => [
                 'id' => 'MKD',
@@ -867,6 +988,7 @@ class CountryList
                 'name' => 'Macedonia, the Former Yugoslav Republic of',
                 'numcode' => 807,
                 'flag' => 'Macedonia-Flag.png',
+                'timezone' => 'Europe/Skopje',
             ],
             'MG' => [
                 'id' => 'MDG',
@@ -874,6 +996,7 @@ class CountryList
                 'name' => 'Madagascar',
                 'numcode' => 450,
                 'flag' => 'Madagascar-Flag.png',
+                'timezone' => 'Indian/Antananarivo',
             ],
             'MW' => [
                 'id' => 'MWI',
@@ -881,6 +1004,7 @@ class CountryList
                 'name' => 'Malawi',
                 'numcode' => 454,
                 'flag' => 'Malawi-Flag.png',
+                'timezone' => 'Africa/Blantyre',
             ],
             'MY' => [
                 'id' => 'MYS',
@@ -888,6 +1012,7 @@ class CountryList
                 'name' => 'Malaysia',
                 'numcode' => 458,
                 'flag' => 'Malaysia-Flag.png',
+                'timezone' => 'Asia/Kuala_Lumpur',
             ],
             'MV' => [
                 'id' => 'MDV',
@@ -895,6 +1020,7 @@ class CountryList
                 'name' => 'Maldives',
                 'numcode' => 462,
                 'flag' => 'Maldives-Flag.png',
+                'timezone' => 'Indian/Maldives',
             ],
             'ML' => [
                 'id' => 'MLI',
@@ -902,6 +1028,7 @@ class CountryList
                 'name' => 'Mali',
                 'numcode' => 466,
                 'flag' => 'Mali-Flag.png',
+                'timezone' => 'Africa/Bamako',
             ],
             'MT' => [
                 'id' => 'MLT',
@@ -909,6 +1036,7 @@ class CountryList
                 'name' => 'Malta',
                 'numcode' => 470,
                 'flag' => 'Malta-Flag.png',
+                'timezone' => 'Europe/Malta',
             ],
             'MH' => [
                 'id' => 'MHL',
@@ -916,6 +1044,7 @@ class CountryList
                 'name' => 'Marshall Islands',
                 'numcode' => 584,
                 'flag' => 'Marshall-Islands-Flag.png',
+                'timezone' => 'Pacific/Majuro',
             ],
             'MQ' => [
                 'id' => 'MTQ',
@@ -923,6 +1052,7 @@ class CountryList
                 'name' => 'Martinique',
                 'numcode' => 474,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'America/Martinique',
             ],
             'MR' => [
                 'id' => 'MRT',
@@ -930,6 +1060,7 @@ class CountryList
                 'name' => 'Mauritania',
                 'numcode' => 478,
                 'flag' => 'Mauritania-Flag.png',
+                'timezone' => 'Africa/Nouakchott',
             ],
             'MU' => [
                 'id' => 'MUS',
@@ -937,6 +1068,7 @@ class CountryList
                 'name' => 'Mauritius',
                 'numcode' => 480,
                 'flag' => 'Mauritius-Flag.png',
+                'timezone' => 'Indian/Mauritius',
             ],
             'YT' => [
                 'id' => 'YT',
@@ -944,6 +1076,7 @@ class CountryList
                 'name' => 'Mayotte',
                 'numcode' => 0,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Indian/Mayotte',
             ],
             'MX' => [
                 'id' => 'MEX',
@@ -951,6 +1084,7 @@ class CountryList
                 'name' => 'Mexico',
                 'numcode' => 484,
                 'flag' => 'Mexico-Flag.png',
+                'timezone' => 'America/Mexico_City',
             ],
             'FM' => [
                 'id' => 'FSM',
@@ -958,6 +1092,7 @@ class CountryList
                 'name' => 'Micronesia, Federated States of',
                 'numcode' => 583,
                 'flag' => 'Micronesia-Flag.png',
+                'timezone' => 'Pacific/Chuuk', // Multiple
             ],
             'MD' => [
                 'id' => 'MDA',
@@ -965,6 +1100,7 @@ class CountryList
                 'name' => 'Moldova, Republic of',
                 'numcode' => 498,
                 'flag' => 'Moldova-Flag.png',
+                'timezone' => 'Europe/Chisinau',
             ],
             'MC' => [
                 'id' => 'MCO',
@@ -972,6 +1108,7 @@ class CountryList
                 'name' => 'Monaco',
                 'numcode' => 492,
                 'flag' => 'Monaco-Flag.png',
+                'timezone' => 'Europe/Monaco',
             ],
             'MN' => [
                 'id' => 'MNG',
@@ -979,6 +1116,7 @@ class CountryList
                 'name' => 'Mongolia',
                 'numcode' => 496,
                 'flag' => 'Mongolia-Flag.png',
+                'timezone' => 'Asia/Ulaanbaatar',
             ],
             'MS' => [
                 'id' => 'MSR',
@@ -986,6 +1124,7 @@ class CountryList
                 'name' => 'Montserrat',
                 'numcode' => 500,
                 'flag' => 'Montserrat-Flag.png',
+                'timezone' => 'America/Montserrat',
             ],
             'MA' => [
                 'id' => 'MAR',
@@ -993,6 +1132,7 @@ class CountryList
                 'name' => 'Morocco',
                 'numcode' => 504,
                 'flag' => 'Morocco-Flag.png',
+                'timezone' => 'Africa/Casablanca',
             ],
             'MZ' => [
                 'id' => 'MOZ',
@@ -1000,6 +1140,7 @@ class CountryList
                 'name' => 'Mozambique',
                 'numcode' => 508,
                 'flag' => 'Mozambique-Flag.png',
+                'timezone' => 'Africa/Maputo',
             ],
             'MM' => [
                 'id' => 'MMR',
@@ -1007,6 +1148,7 @@ class CountryList
                 'name' => 'Myanmar',
                 'numcode' => 104,
                 'flag' => 'Myanmar-Flag.png',
+                'timezone' => 'Asia/Yangon',
             ],
             'NA' => [
                 'id' => 'NAM',
@@ -1014,6 +1156,7 @@ class CountryList
                 'name' => 'Namibia',
                 'numcode' => 516,
                 'flag' => 'Namibia-Flag.png',
+                'timezone' => 'Africa/Windhoek',
             ],
             'NR' => [
                 'id' => 'NRU',
@@ -1021,6 +1164,7 @@ class CountryList
                 'name' => 'Nauru',
                 'numcode' => 520,
                 'flag' => 'Nauru-Flag.png',
+                'timezone' => 'Pacific/Nauru',
             ],
             'NP' => [
                 'id' => 'NPL',
@@ -1028,6 +1172,7 @@ class CountryList
                 'name' => 'Nepal',
                 'numcode' => 524,
                 'flag' => 'Nepal-Flag.png',
+                'timezone' => 'Asia/Kathmandu',
             ],
             'NL' => [
                 'id' => 'NLD',
@@ -1035,6 +1180,7 @@ class CountryList
                 'name' => 'Netherlands',
                 'numcode' => 528,
                 'flag' => 'Netherlands-Flag.png',
+                'timezone' => 'Europe/Amsterdam',
             ],
             'AN' => [
                 'id' => 'ANT',
@@ -1042,6 +1188,7 @@ class CountryList
                 'name' => 'Netherlands Antilles',
                 'numcode' => 530,
                 'flag' => 'Netherlands-Antilles-Flag.png',
+                'timezone' => 'America/Curacao', // Former; now varied
             ],
             'NC' => [
                 'id' => 'NCL',
@@ -1049,6 +1196,7 @@ class CountryList
                 'name' => 'New Caledonia',
                 'numcode' => 540,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Pacific/Noumea',
             ],
             'NZ' => [
                 'id' => 'NZL',
@@ -1056,6 +1204,7 @@ class CountryList
                 'name' => 'New Zealand',
                 'numcode' => 554,
                 'flag' => 'New-Zealand-Flag.png',
+                'timezone' => 'Pacific/Auckland',
             ],
             'NI' => [
                 'id' => 'NIC',
@@ -1063,6 +1212,7 @@ class CountryList
                 'name' => 'Nicaragua',
                 'numcode' => 558,
                 'flag' => 'Nicaragua-Flag.png',
+                'timezone' => 'America/Managua',
             ],
             'NE' => [
                 'id' => 'NER',
@@ -1070,6 +1220,7 @@ class CountryList
                 'name' => 'Niger',
                 'numcode' => 562,
                 'flag' => 'Niger-Flag.png',
+                'timezone' => 'Africa/Niamey',
             ],
             'NG' => [
                 'id' => 'NGA',
@@ -1077,6 +1228,7 @@ class CountryList
                 'name' => 'Nigeria',
                 'numcode' => 566,
                 'flag' => 'Nigeria-Flag.png',
+                'timezone' => 'Africa/Lagos',
             ],
             'NU' => [
                 'id' => 'NIU',
@@ -1084,6 +1236,7 @@ class CountryList
                 'name' => 'Niue',
                 'numcode' => 570,
                 'flag' => 'United-Kingdom-Flag.png',
+                'timezone' => 'Pacific/Niue',
             ],
             'NF' => [
                 'id' => 'NFK',
@@ -1091,6 +1244,7 @@ class CountryList
                 'name' => 'Norfolk Island',
                 'numcode' => 574,
                 'flag' => 'Australia-Flag.png',
+                'timezone' => 'Pacific/Norfolk',
             ],
             'MP' => [
                 'id' => 'MNP',
@@ -1098,6 +1252,7 @@ class CountryList
                 'name' => 'Northern Mariana Islands',
                 'numcode' => 580,
                 'flag' => 'United-States-of-America-Flag.png',
+                'timezone' => 'Pacific/Saipan',
             ],
             'NO' => [
                 'id' => 'NOR',
@@ -1105,6 +1260,7 @@ class CountryList
                 'name' => 'Norway',
                 'numcode' => 578,
                 'flag' => 'Norway-Flag.png',
+                'timezone' => 'Europe/Oslo',
             ],
             'OM' => [
                 'id' => 'OMN',
@@ -1112,6 +1268,7 @@ class CountryList
                 'name' => 'Oman',
                 'numcode' => 512,
                 'flag' => 'Oman-Flag.png',
+                'timezone' => 'Asia/Muscat',
             ],
             'PK' => [
                 'id' => 'PAK',
@@ -1119,6 +1276,7 @@ class CountryList
                 'name' => 'Pakistan',
                 'numcode' => 586,
                 'flag' => 'Pakistan-Flag.png',
+                'timezone' => 'Asia/Karachi',
             ],
             'PW' => [
                 'id' => 'PLW',
@@ -1126,6 +1284,7 @@ class CountryList
                 'name' => 'Palau',
                 'numcode' => 585,
                 'flag' => 'Palau-Flag.png',
+                'timezone' => 'Pacific/Palau',
             ],
             'PS' => [
                 'id' => 'PS',
@@ -1133,6 +1292,7 @@ class CountryList
                 'name' => 'Palestinian Territory, Occupied',
                 'numcode' => 0,
                 'flag' => 'Palestine-Flag.png',
+                'timezone' => 'Asia/Gaza',
             ],
             'PA' => [
                 'id' => 'PAN',
@@ -1140,6 +1300,7 @@ class CountryList
                 'name' => 'Panama',
                 'numcode' => 591,
                 'flag' => 'Panama-Flag.png',
+                'timezone' => 'America/Panama',
             ],
             'PG' => [
                 'id' => 'PNG',
@@ -1147,6 +1308,7 @@ class CountryList
                 'name' => 'Papua New Guinea',
                 'numcode' => 598,
                 'flag' => 'Papua-New-Guinea-Flag.png',
+                'timezone' => 'Pacific/Port_Moresby',
             ],
             'PY' => [
                 'id' => 'PRY',
@@ -1154,6 +1316,7 @@ class CountryList
                 'name' => 'Paraguay',
                 'numcode' => 600,
                 'flag' => 'Paraguay-Flag.png',
+                'timezone' => 'America/Asuncion',
             ],
             'PE' => [
                 'id' => 'PER',
@@ -1161,6 +1324,7 @@ class CountryList
                 'name' => 'Peru',
                 'numcode' => 604,
                 'flag' => 'Peru-Flag.png',
+                'timezone' => 'America/Lima',
             ],
             'PH' => [
                 'id' => 'PHL',
@@ -1168,6 +1332,7 @@ class CountryList
                 'name' => 'Philippines',
                 'numcode' => 608,
                 'flag' => 'Philippines-Flag.png',
+                'timezone' => 'Asia/Manila',
             ],
             'PN' => [
                 'id' => 'PCN',
@@ -1175,6 +1340,7 @@ class CountryList
                 'name' => 'Pitcairn',
                 'numcode' => 612,
                 'flag' => 'United-Kingdom-Flag.png',
+                'timezone' => 'Pacific/Pitcairn',
             ],
             'PL' => [
                 'id' => 'POL',
@@ -1182,6 +1348,7 @@ class CountryList
                 'name' => 'Poland',
                 'numcode' => 616,
                 'flag' => 'Poland-Flag.png',
+                'timezone' => 'Europe/Warsaw',
             ],
             'PT' => [
                 'id' => 'PRT',
@@ -1189,6 +1356,7 @@ class CountryList
                 'name' => 'Portugal',
                 'numcode' => 620,
                 'flag' => 'Portugal-Flag.png',
+                'timezone' => 'Europe/Lisbon',
             ],
             'PR' => [
                 'id' => 'PRI',
@@ -1196,6 +1364,7 @@ class CountryList
                 'name' => 'Puerto Rico',
                 'numcode' => 630,
                 'flag' => 'Puerto-Rico-Flag.png',
+                'timezone' => 'America/Puerto_Rico',
             ],
             'QA' => [
                 'id' => 'QAT',
@@ -1203,6 +1372,7 @@ class CountryList
                 'name' => 'Qatar',
                 'numcode' => 634,
                 'flag' => 'Qatar-Flag.png',
+                'timezone' => 'Asia/Qatar',
             ],
             'RE' => [
                 'id' => 'REU',
@@ -1210,6 +1380,7 @@ class CountryList
                 'name' => 'Reunion',
                 'numcode' => 638,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Indian/Reunion',
             ],
             'RO' => [
                 'id' => 'ROM',
@@ -1217,6 +1388,7 @@ class CountryList
                 'name' => 'Romania',
                 'numcode' => 642,
                 'flag' => 'Romania-Flag.png',
+                'timezone' => 'Europe/Bucharest',
             ],
             'RU' => [
                 'id' => 'RUS',
@@ -1224,6 +1396,7 @@ class CountryList
                 'name' => 'Russian Federation',
                 'numcode' => 643,
                 'flag' => 'Russian-Federation-Flag.png',
+                'timezone' => 'Europe/Moscow', // Primary
             ],
             'RW' => [
                 'id' => 'RWA',
@@ -1231,6 +1404,7 @@ class CountryList
                 'name' => 'Rwanda',
                 'numcode' => 646,
                 'flag' => 'Rwanda-Flag.png',
+                'timezone' => 'Africa/Kigali',
             ],
             'SH' => [
                 'id' => 'SHN',
@@ -1238,6 +1412,7 @@ class CountryList
                 'name' => 'Saint Helena',
                 'numcode' => 654,
                 'flag' => 'United-Kingdom-Flag.png',
+                'timezone' => 'Atlantic/St_Helena',
             ],
             'KN' => [
                 'id' => 'KNA',
@@ -1245,6 +1420,7 @@ class CountryList
                 'name' => 'Saint Kitts and Nevis',
                 'numcode' => 659,
                 'flag' => 'St-Kitts-and-Nevis-Flag.png',
+                'timezone' => 'America/St_Kitts',
             ],
             'LC' => [
                 'id' => 'LCA',
@@ -1252,6 +1428,7 @@ class CountryList
                 'name' => 'Saint Lucia',
                 'numcode' => 662,
                 'flag' => 'Saint-Lucia-Flag.png',
+                'timezone' => 'America/St_Lucia',
             ],
             'PM' => [
                 'id' => 'SPM',
@@ -1259,6 +1436,7 @@ class CountryList
                 'name' => 'Saint Pierre and Miquelon',
                 'numcode' => 666,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'America/Miquelon',
             ],
             'VC' => [
                 'id' => 'VCT',
@@ -1266,6 +1444,7 @@ class CountryList
                 'name' => 'Saint Vincent and the Grenadines',
                 'numcode' => 670,
                 'flag' => 'St-Vincent-and-the-Grenadines-Flag.png',
+                'timezone' => 'America/St_Vincent',
             ],
             'WS' => [
                 'id' => 'WSM',
@@ -1273,6 +1452,7 @@ class CountryList
                 'name' => 'Samoa',
                 'numcode' => 882,
                 'flag' => 'Samoa-Flag.png',
+                'timezone' => 'Pacific/Apia',
             ],
             'SM' => [
                 'id' => 'SMR',
@@ -1280,6 +1460,7 @@ class CountryList
                 'name' => 'San Marino',
                 'numcode' => 674,
                 'flag' => 'San-Marino-Flag.png',
+                'timezone' => 'Europe/San_Marino',
             ],
             'ST' => [
                 'id' => 'STP',
@@ -1287,6 +1468,7 @@ class CountryList
                 'name' => 'Sao Tome and Principe',
                 'numcode' => 678,
                 'flag' => 'Sao-Tome-and-Principe-Flag.png',
+                'timezone' => 'Africa/Sao_Tome',
             ],
             'SA' => [
                 'id' => 'SAU',
@@ -1294,6 +1476,7 @@ class CountryList
                 'name' => 'Saudi Arabia',
                 'numcode' => 682,
                 'flag' => 'Saudi-Arabia-Flag.png',
+                'timezone' => 'Asia/Riyadh',
             ],
             'SN' => [
                 'id' => 'SEN',
@@ -1301,6 +1484,7 @@ class CountryList
                 'name' => 'Senegal',
                 'numcode' => 686,
                 'flag' => 'Senegal-Flag.png',
+                'timezone' => 'Africa/Dakar',
             ],
             'CS' => [
                 'id' => 'CS',
@@ -1308,6 +1492,7 @@ class CountryList
                 'name' => 'Serbia and Montenegro',
                 'numcode' => 0,
                 'flag' => 'Serbia-Flag.png',
+                'timezone' => 'Europe/Belgrade', // Historical
             ],
             'SC' => [
                 'id' => 'SYC',
@@ -1315,6 +1500,7 @@ class CountryList
                 'name' => 'Seychelles',
                 'numcode' => 690,
                 'flag' => 'Seychelles-Flag.png',
+                'timezone' => 'Indian/Mahe',
             ],
             'SL' => [
                 'id' => 'SLE',
@@ -1322,6 +1508,7 @@ class CountryList
                 'name' => 'Sierra Leone',
                 'numcode' => 694,
                 'flag' => 'Sierra-Leone-Flag.png',
+                'timezone' => 'Africa/Freetown',
             ],
             'SG' => [
                 'id' => 'SGP',
@@ -1329,6 +1516,7 @@ class CountryList
                 'name' => 'Singapore',
                 'numcode' => 702,
                 'flag' => 'Singapore-Flag.png',
+                'timezone' => 'Asia/Singapore',
             ],
             'SK' => [
                 'id' => 'SVK',
@@ -1336,6 +1524,7 @@ class CountryList
                 'name' => 'Slovakia',
                 'numcode' => 703,
                 'flag' => 'Slovakia-Flag.png',
+                'timezone' => 'Europe/Bratislava',
             ],
             'SI' => [
                 'id' => 'SVN',
@@ -1343,6 +1532,7 @@ class CountryList
                 'name' => 'Slovenia',
                 'numcode' => 705,
                 'flag' => 'Slovenia-Flag.png',
+                'timezone' => 'Europe/Ljubljana',
             ],
             'SB' => [
                 'id' => 'SLB',
@@ -1350,6 +1540,7 @@ class CountryList
                 'name' => 'Solomon Islands',
                 'numcode' => 90,
                 'flag' => 'Solomon-Islands-Flag.png',
+                'timezone' => 'Pacific/Guadalcanal',
             ],
             'SO' => [
                 'id' => 'SOM',
@@ -1357,6 +1548,7 @@ class CountryList
                 'name' => 'Somalia',
                 'numcode' => 706,
                 'flag' => 'Somalia-Flag.png',
+                'timezone' => 'Africa/Mogadishu',
             ],
             'ZA' => [
                 'id' => 'ZAF',
@@ -1364,6 +1556,7 @@ class CountryList
                 'name' => 'South Africa',
                 'numcode' => 710,
                 'flag' => 'South-Africa-Flag.png',
+                'timezone' => 'Africa/Johannesburg',
             ],
             'GS' => [
                 'id' => 'GS',
@@ -1371,6 +1564,7 @@ class CountryList
                 'name' => 'South Georgia and the South Sandwich Islands',
                 'numcode' => 0,
                 'flag' => 'South-Korea-Flag.png',
+                'timezone' => 'Atlantic/South_Georgia',
             ],
             'ES' => [
                 'id' => 'ESP',
@@ -1378,6 +1572,7 @@ class CountryList
                 'name' => 'Spain',
                 'numcode' => 724,
                 'flag' => 'Spain-Flag.png',
+                'timezone' => 'Europe/Madrid',
             ],
             'LK' => [
                 'id' => 'LKA',
@@ -1385,6 +1580,7 @@ class CountryList
                 'name' => 'Sri Lanka',
                 'numcode' => 144,
                 'flag' => 'Sri-Lanka-Flag.png',
+                'timezone' => 'Asia/Colombo',
             ],
             'SD' => [
                 'id' => 'SDN',
@@ -1392,6 +1588,7 @@ class CountryList
                 'name' => 'Sudan',
                 'numcode' => 736,
                 'flag' => 'Sudan-Flag.png',
+                'timezone' => 'Africa/Khartoum',
             ],
             'SR' => [
                 'id' => 'SUR',
@@ -1399,6 +1596,7 @@ class CountryList
                 'name' => 'Suriname',
                 'numcode' => 740,
                 'flag' => 'Suriname-Flag.png',
+                'timezone' => 'America/Paramaribo',
             ],
             'SJ' => [
                 'id' => 'SJM',
@@ -1406,6 +1604,7 @@ class CountryList
                 'name' => 'Svalbard and Jan Mayen',
                 'numcode' => 744,
                 'flag' => 'Norway-Flag.png',
+                'timezone' => 'Arctic/Longyearbyen',
             ],
             'SZ' => [
                 'id' => 'SWZ',
@@ -1413,6 +1612,7 @@ class CountryList
                 'name' => 'Swaziland',
                 'numcode' => 748,
                 'flag' => 'Swaziland-Flag.png',
+                'timezone' => 'Africa/Mbabane',
             ],
             'SE' => [
                 'id' => 'SWE',
@@ -1420,6 +1620,7 @@ class CountryList
                 'name' => 'Sweden',
                 'numcode' => 752,
                 'flag' => 'Sweden-Flag.png',
+                'timezone' => 'Europe/Stockholm',
             ],
             'CH' => [
                 'id' => 'CHE',
@@ -1427,6 +1628,7 @@ class CountryList
                 'name' => 'Switzerland',
                 'numcode' => 756,
                 'flag' => 'Switzerland-Flag.png',
+                'timezone' => 'Europe/Zurich',
             ],
             'SY' => [
                 'id' => 'SYR',
@@ -1434,6 +1636,7 @@ class CountryList
                 'name' => 'Syrian Arab Republic',
                 'numcode' => 760,
                 'flag' => 'Syria-Flag.png',
+                'timezone' => 'Asia/Damascus',
             ],
             'TW' => [
                 'id' => 'TWN',
@@ -1441,6 +1644,7 @@ class CountryList
                 'name' => 'Taiwan, Province of China',
                 'numcode' => 158,
                 'flag' => 'Taiwan-Flag.png',
+                'timezone' => 'Asia/Taipei',
             ],
             'TJ' => [
                 'id' => 'TJK',
@@ -1448,6 +1652,7 @@ class CountryList
                 'name' => 'Tajikistan',
                 'numcode' => 762,
                 'flag' => 'Tajikistan-Flag.png',
+                'timezone' => 'Asia/Dushanbe',
             ],
             'TZ' => [
                 'id' => 'TZA',
@@ -1455,6 +1660,7 @@ class CountryList
                 'name' => 'Tanzania, United Republic of',
                 'numcode' => 834,
                 'flag' => 'Tanzania-Flag.png',
+                'timezone' => 'Africa/Dar_es_Salaam',
             ],
             'TH' => [
                 'id' => 'THA',
@@ -1462,6 +1668,7 @@ class CountryList
                 'name' => 'Thailand',
                 'numcode' => 764,
                 'flag' => 'Thailand-Flag.png',
+                'timezone' => 'Asia/Bangkok',
             ],
             'TL' => [
                 'id' => 'TL',
@@ -1469,6 +1676,7 @@ class CountryList
                 'name' => 'Timor-Leste',
                 'numcode' => 0,
                 'flag' => 'Timor-Leste-Flag.png',
+                'timezone' => 'Asia/Dili',
             ],
             'TG' => [
                 'id' => 'TGO',
@@ -1476,6 +1684,7 @@ class CountryList
                 'name' => 'Togo',
                 'numcode' => 768,
                 'flag' => 'Togo-Flag.png',
+                'timezone' => 'Africa/Lome',
             ],
             'TK' => [
                 'id' => 'TKL',
@@ -1483,6 +1692,7 @@ class CountryList
                 'name' => 'Tokelau',
                 'numcode' => 772,
                 'flag' => 'New-Zealand-Flag.png',
+                'timezone' => 'Pacific/Fakaofo',
             ],
             'TO' => [
                 'id' => 'TON',
@@ -1490,6 +1700,7 @@ class CountryList
                 'name' => 'Tonga',
                 'numcode' => 776,
                 'flag' => 'Tonga-Flag.png',
+                'timezone' => 'Pacific/Tongatapu',
             ],
             'TT' => [
                 'id' => 'TTO',
@@ -1497,6 +1708,7 @@ class CountryList
                 'name' => 'Trinidad and Tobago',
                 'numcode' => 780,
                 'flag' => 'Trinidad-and-Tobago-Flag.png',
+                'timezone' => 'America/Port_of_Spain',
             ],
             'TN' => [
                 'id' => 'TUN',
@@ -1504,6 +1716,7 @@ class CountryList
                 'name' => 'Tunisia',
                 'numcode' => 788,
                 'flag' => 'Tunisia-Flag.png',
+                'timezone' => 'Africa/Tunis',
             ],
             'TR' => [
                 'id' => 'TUR',
@@ -1511,6 +1724,7 @@ class CountryList
                 'name' => 'Turkey',
                 'numcode' => 792,
                 'flag' => 'Turkey-Flag.png',
+                'timezone' => 'Europe/Istanbul',
             ],
             'TM' => [
                 'id' => 'TKM',
@@ -1518,6 +1732,7 @@ class CountryList
                 'name' => 'Turkmenistan',
                 'numcode' => 795,
                 'flag' => 'Turkmenistan-Flag.png',
+                'timezone' => 'Asia/Ashgabat',
             ],
             'TC' => [
                 'id' => 'TCA',
@@ -1525,6 +1740,7 @@ class CountryList
                 'name' => 'Turks and Caicos Islands',
                 'numcode' => 796,
                 'flag' => 'Turks-and-Caicos-Islands-Flag.png',
+                'timezone' => 'America/Grand_Turk',
             ],
             'TV' => [
                 'id' => 'TUV',
@@ -1532,6 +1748,7 @@ class CountryList
                 'name' => 'Tuvalu',
                 'numcode' => 798,
                 'flag' => 'Tuvalu-Flag.png',
+                'timezone' => 'Pacific/Funafuti',
             ],
             'UG' => [
                 'id' => 'UGA',
@@ -1539,6 +1756,7 @@ class CountryList
                 'name' => 'Uganda',
                 'numcode' => 800,
                 'flag' => 'Uganda-Flag.png',
+                'timezone' => 'Africa/Kampala',
             ],
             'UA' => [
                 'id' => 'UKR',
@@ -1546,6 +1764,7 @@ class CountryList
                 'name' => 'Ukraine',
                 'numcode' => 804,
                 'flag' => 'Ukraine-Flag.png',
+                'timezone' => 'Europe/Kyiv',
             ],
             'AE' => [
                 'id' => 'ARE',
@@ -1553,6 +1772,7 @@ class CountryList
                 'name' => 'United Arab Emirates',
                 'numcode' => 784,
                 'flag' => 'United-Arab-Emirates-Flag.png',
+                'timezone' => 'Asia/Dubai',
             ],
             'GB' => [
                 'id' => 'GBR',
@@ -1560,6 +1780,7 @@ class CountryList
                 'name' => 'United Kingdom',
                 'numcode' => 826,
                 'flag' => 'United-Kingdom-Flag.png',
+                'timezone' => 'Europe/London',
             ],
             'US' => [
                 'id' => 'USA',
@@ -1567,6 +1788,7 @@ class CountryList
                 'name' => 'United States',
                 'numcode' => 840,
                 'flag' => 'United-States-of-America-Flag.png',
+                'timezone' => 'America/New_York', // Primary
             ],
             'UM' => [
                 'id' => 'UM',
@@ -1574,6 +1796,7 @@ class CountryList
                 'name' => 'United States Minor Outlying Islands',
                 'numcode' => 0,
                 'flag' => 'United-States-of-America-Flag.png',
+                'timezone' => 'Pacific/Wake', // Varied
             ],
             'UY' => [
                 'id' => 'URY',
@@ -1581,6 +1804,7 @@ class CountryList
                 'name' => 'Uruguay',
                 'numcode' => 858,
                 'flag' => 'Uruguay-Flag.png',
+                'timezone' => 'America/Montevideo',
             ],
             'UZ' => [
                 'id' => 'UZB',
@@ -1588,6 +1812,7 @@ class CountryList
                 'name' => 'Uzbekistan',
                 'numcode' => 860,
                 'flag' => 'Uzbekistan-Flag.png',
+                'timezone' => 'Asia/Tashkent',
             ],
             'VU' => [
                 'id' => 'VUT',
@@ -1595,6 +1820,7 @@ class CountryList
                 'name' => 'Vanuatu',
                 'numcode' => 548,
                 'flag' => 'Vanutau-Flag.png',
+                'timezone' => 'Pacific/Efate',
             ],
             'VE' => [
                 'id' => 'VEN',
@@ -1602,6 +1828,7 @@ class CountryList
                 'name' => 'Venezuela',
                 'numcode' => 862,
                 'flag' => 'Venezuela-Flag.png',
+                'timezone' => 'America/Caracas',
             ],
             'VN' => [
                 'id' => 'VNM',
@@ -1609,6 +1836,7 @@ class CountryList
                 'name' => 'Viet Nam',
                 'numcode' => 704,
                 'flag' => 'Viet-Nam-Flag.png',
+                'timezone' => 'Asia/Ho_Chi_Minh',
             ],
             'VG' => [
                 'id' => 'VGB',
@@ -1616,6 +1844,7 @@ class CountryList
                 'name' => 'Virgin Islands, British',
                 'numcode' => 92,
                 'flag' => 'Virgin-Islands-British-Flag.png',
+                'timezone' => 'America/Tortola',
             ],
             'VI' => [
                 'id' => 'VIR',
@@ -1623,6 +1852,7 @@ class CountryList
                 'name' => 'Virgin Islands, U.s.',
                 'numcode' => 850,
                 'flag' => 'Virgin-Islands-US-Flag.png',
+                'timezone' => 'America/St_Thomas',
             ],
             'WF' => [
                 'id' => 'WLF',
@@ -1630,6 +1860,7 @@ class CountryList
                 'name' => 'Wallis and Futuna',
                 'numcode' => 876,
                 'flag' => 'France-Flag.png',
+                'timezone' => 'Pacific/Wallis',
             ],
             'EH' => [
                 'id' => 'ESH',
@@ -1637,6 +1868,7 @@ class CountryList
                 'name' => 'Western Sahara',
                 'numcode' => 732,
                 'flag' => 'Western-Sahara-Flag.png',
+                'timezone' => 'Africa/El_Aaiun',
             ],
             'YE' => [
                 'id' => 'YEM',
@@ -1644,6 +1876,7 @@ class CountryList
                 'name' => 'Yemen',
                 'numcode' => 887,
                 'flag' => 'Yemen-Flag.png',
+                'timezone' => 'Asia/Aden',
             ],
             'ZM' => [
                 'id' => 'ZMB',
@@ -1651,6 +1884,7 @@ class CountryList
                 'name' => 'Zambia',
                 'numcode' => 894,
                 'flag' => 'Zambia-Flag.png',
+                'timezone' => 'Africa/Lusaka',
             ],
             'ZW' => [
                 'id' => 'ZWE',
@@ -1658,6 +1892,7 @@ class CountryList
                 'name' => 'Zimbabwe',
                 'numcode' => 716,
                 'flag' => 'Zimbabwe-Flag.png',
+                'timezone' => 'Africa/Harare',
             ],
         ];
     }

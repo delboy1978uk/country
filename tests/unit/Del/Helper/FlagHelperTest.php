@@ -1,6 +1,6 @@
 <?php
 
-namespace Del\Helper;
+namespace Tests\Del\Helper;
 
 use Del\Factory\CountryFactory;
 

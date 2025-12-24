@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Del\Entity;
 
-use JsonSerializable;
+use DateTimeZone;
 
 class Country
 {
@@ -13,6 +13,15 @@ class Country
     private string $name = '';
     private int $numCode = 0;
     private string $flag = '';
+    private DateTimeZone $timezone;
+
+    /**
+     * @param string $flag
+     */
+    public function __construct(string $flag)
+    {
+        $this->flag = $flag;
+    }
 
     public function getId(): string
     {
@@ -64,14 +73,25 @@ class Country
         $this->flag = $flag;
     }
 
+    public function getTimezone(): DateTimeZone
+    {
+        return $this->timezone;
+    }
+
+    public function setTimezone(DateTimeZone $timezone): void
+    {
+        $this->timezone = $timezone;
+    }
+
     public function toArray(): array
     {
         return [
-             'id' => $this->id,
-             'iso' => $this->iso,
-             'num_code' => $this->numCode,
-             'numCode' => $this->numCode,
-             'flag' => $this->flag,
+            'id' => $this->id,
+            'iso' => $this->iso,
+            'num_code' => $this->numCode,
+            'numCode' => $this->numCode,
+            'flag' => $this->flag,
+            'timezone' => $this->timezone
         ];
     }
 

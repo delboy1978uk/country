@@ -61,6 +61,7 @@ class CountryRepository
         $country->setName($data['name']);
         $country->setNumCode($data['numcode']);
         $country->setFlag($data['flag']);
+        $country->setTimezone(new \DateTimeZone($data['timezone']));
 
         return $country;
     }

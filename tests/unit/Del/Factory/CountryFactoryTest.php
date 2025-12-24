@@ -1,10 +1,9 @@
 <?php
 
-namespace Del\Factory;
+namespace Tests\Del\Factory;
 
 use Codeception\Test\Unit;
 use Del\Exception\CountryException;
-use InvalidArgumentException;
 
 class CountryFactoryTest extends Unit
 {
@@ -22,6 +21,7 @@ class CountryFactoryTest extends Unit
         $this->assertEquals('United Kingdom',$country->getName());
         $this->assertEquals(826,$country->getNumCode());
         $this->assertEquals('United-Kingdom-Flag.png',$country->getFlag());
+        $this->assertEquals('Europe/London', $country->getTimezone()->getName());
     }
 
     public function testThrowsExceptionWhenBullshitCountryCodePassed()
