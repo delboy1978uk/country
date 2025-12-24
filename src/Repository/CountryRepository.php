@@ -46,7 +46,7 @@ class CountryRepository
     {
         foreach ($this->countries as $country) {
             if ($country[$key] === $value) {
-                return $this->createFromArray($this->countries[$id]);
+                return $this->createFromArray($this->countries[$key]);
             }
         }
 

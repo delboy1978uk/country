@@ -15,14 +15,6 @@ class Country
     private string $flag = '';
     private DateTimeZone $timezone;
 
-    /**
-     * @param string $flag
-     */
-    public function __construct(string $flag)
-    {
-        $this->flag = $flag;
-    }
-
     public function getId(): string
     {
         return $this->id;

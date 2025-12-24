@@ -4,6 +4,7 @@ namespace Tests\Del\Factory;
 
 use Codeception\Test\Unit;
 use Del\Exception\CountryException;
+use Del\Factory\CountryFactory;
 
 class CountryFactoryTest extends Unit
 {
