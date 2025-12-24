@@ -3,6 +3,7 @@
 namespace Tests\Del\Helper;
 
 use Del\Factory\CountryFactory;
+use Del\Helper\Flag;
 
 class FlagHelperTest extends \Codeception\Test\Unit
 {
